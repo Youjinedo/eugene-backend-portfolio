@@ -1,39 +1,157 @@
 # Eugene Williams Edo | Backend Developer Portfolio
 
-A responsive personal portfolio website created to showcase my skills, backend development projects, and technical experience.
+A personal backend developer portfolio website built to showcase my backend development skills, technical knowledge, projects, and software development journey.
 
-## About
+The portfolio was created using HTML and CSS while following clean coding practices, responsive design principles, and a simple developer-focused structure.
 
-I am a backend developer focused on building reliable APIs, database-driven applications, and secure server-side solutions.
+---
 
-## Technologies Used
+## Live Portfolio
+
+GitHub Repository:
+
+https://github.com/Youjinedo/eugene-backend-portfolio
+
+---
+
+# About Me
+
+I am Eugene Williams Edo, a backend developer focused on building reliable APIs, database-driven applications, and secure server-side solutions.
+
+I enjoy solving technical problems through clean code, structured backend architecture, and efficient software development practices.
+
+My goal is to create backend systems that are reliable, maintainable, and scalable.
+
+---
+
+# Technologies Used
+
+## Frontend
 
 - HTML5
 - CSS3
 - Responsive Web Design
 
-## Features
+## Backend Technologies
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- REST API Development
+- JWT Authentication
+
+## Development Tools
+
+- Visual Studio Code
+- Git
+- GitHub
+- Postman
+
+---
+
+# Portfolio Features
+
+The portfolio includes:
 
 - Professional developer introduction
 - About section
 - Technical skills showcase
-- Backend project presentation
+- Backend expertise section
+- Project showcase
+- Development workflow
 - Contact information
-- Responsive design for different screen sizes
+- Responsive layout
+- Modern card-based design
+- Hover animations and visual effects
 
-## Projects Included
+---
 
-### Notes Management REST API
+# Featured Projects
 
-A backend API application for creating, retrieving, updating, and deleting notes using modern backend development practices.
+## 1. Notes Management REST API
 
-### User Authentication API
+A backend REST API application that allows users to create, retrieve, update, and delete notes.
 
-An authentication system covering user registration, login, password security, and protected routes.
+The project demonstrates practical backend development concepts including API design, database management, authentication, and server-side application structure.
 
-## Author
+### Features
 
-**Eugene Williams Edo**
+- Create notes
+- Retrieve notes
+- Update notes
+- Delete notes
+- Database integration
+- Authentication support
+- API testing
 
-GitHub:
-https://github.com/Youjinedo
+### Technologies
+
+- Node.js
+- Express.js
+- MongoDB
+- Mongoose
+- JWT Authentication
+- Postman
+
+---
+
+## 2. User Authentication API
+
+A backend authentication system designed to handle user registration, login, password security, and protected routes.
+
+This project focuses on secure backend practices and user management.
+
+### Features
+
+- User registration
+- User login
+- Password encryption
+- Authentication middleware
+- Protected routes
+
+### Technologies
+
+- Node.js
+- Express.js
+- MongoDB
+- JWT
+- bcrypt
+
+---
+
+## 3. Backend Application Development
+
+A collection of backend development practices focused on creating organised and maintainable server-side applications.
+
+### Areas Covered
+
+- API design
+- Database integration
+- Error handling
+- Backend architecture
+- Application structure
+
+### Technologies
+
+- JavaScript
+- Node.js
+- Express.js
+- Git
+- GitHub
+
+---
+
+# Backend Development Workflow
+
+My backend development process follows these steps:
+
+1. Analyse project requirements
+2. Design database structure
+3. Create API endpoints
+4. Test APIs using Postman
+5. Deploy and maintain applications
+
+---
+
+# Project Structure

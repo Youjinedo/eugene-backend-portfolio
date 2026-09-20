@@ -27,7 +27,7 @@ body {
 
     font-family: Arial, sans-serif;
 
-    background: #020617;
+    background: #10002b;
 
     color: white;
 
@@ -41,6 +41,8 @@ body {
 
 
 
+
+
 /* =========================
    HEADER
 ========================= */
@@ -48,7 +50,7 @@ body {
 
 header {
 
-    background: #0f172a;
+    background: #240046;
 
     padding: 20px 10%;
 
@@ -76,7 +78,7 @@ nav {
 
 nav h2 {
 
-    color: #38bdf8;
+    color: #c77dff;
 
     font-size: 26px;
 
@@ -110,9 +112,10 @@ nav a {
 
 nav a:hover {
 
-    color: #38bdf8;
+    color: #c77dff;
 
 }
+
 
 
 
@@ -135,7 +138,7 @@ section {
 
 h2 {
 
-    color: #38bdf8;
+    color: #c77dff;
 
     font-size: 34px;
 
@@ -147,7 +150,7 @@ h2 {
 
 h3 {
 
-    color: #38bdf8;
+    color: #e0aaff;
 
 }
 
@@ -155,11 +158,12 @@ h3 {
 
 p {
 
-    color: #cbd5e1;
+    color: #e0d7ff;
 
     font-size: 17px;
 
 }
+
 
 
 
@@ -240,9 +244,9 @@ p {
 
     border-radius: 25px;
 
-    border: 3px solid #38bdf8;
+    border: 3px solid #c77dff;
 
-    box-shadow: 0 0 30px rgba(56,189,248,0.5);
+    box-shadow: 0 0 35px rgba(199,125,255,0.6);
 
     transition: 0.4s;
 
@@ -262,6 +266,7 @@ p {
 
 
 
+
 /* =========================
    BUTTONS
 ========================= */
@@ -273,9 +278,9 @@ button {
 
     padding: 14px 30px;
 
-    background: #38bdf8;
+    background: #9d4edd;
 
-    color: #020617;
+    color: white;
 
     border: none;
 
@@ -293,7 +298,9 @@ button {
 
 button:hover {
 
-    background: white;
+    background: #e0aaff;
+
+    color: #10002b;
 
     transform: translateY(-4px);
 
@@ -317,7 +324,7 @@ button:hover {
 
     color: white;
 
-    border: 2px solid #38bdf8;
+    border: 2px solid #c77dff;
 
 }
 
@@ -325,11 +332,12 @@ button:hover {
 
 .secondary-btn:hover {
 
-    background: #38bdf8;
+    background: #c77dff;
 
-    color: #020617;
+    color: #10002b;
 
 }
+
 
 
 
@@ -356,7 +364,7 @@ button:hover {
 
 .skill-card {
 
-    background: #1e293b;
+    background: #240046;
 
     padding: 30px;
 
@@ -374,7 +382,9 @@ button:hover {
 
     transform: translateY(-8px);
 
-    border-color: #38bdf8;
+    border-color: #c77dff;
+
+    box-shadow: 0 10px 25px rgba(199,125,255,0.25);
 
 }
 
@@ -392,6 +402,7 @@ button:hover {
 
 
 
+
 /* =========================
    PROJECTS
 ========================= */
@@ -400,9 +411,13 @@ button:hover {
 .project-card {
 
     background: linear-gradient(
+
         145deg,
-        #1e293b,
-        #0f172a
+
+        #240046,
+
+        #10002b
+
     );
 
     padding: 35px;
@@ -411,7 +426,7 @@ button:hover {
 
     border-radius: 18px;
 
-    border: 1px solid #1e293b;
+    border: 1px solid #3c096c;
 
     transition: 0.4s;
 
@@ -423,9 +438,11 @@ button:hover {
 
     transform: translateY(-10px);
 
-    border-color: #38bdf8;
+    border-color: #c77dff;
 
-    box-shadow: 0 15px 35px rgba(0,0,0,0.4);
+    box-shadow:
+
+    0 15px 35px rgba(199,125,255,0.25);
 
 }
 
@@ -457,9 +474,9 @@ button:hover {
 
 .project-tags span {
 
-    background: #0f172a;
+    background: #3c096c;
 
-    color: #38bdf8;
+    color: #e0aaff;
 
     padding: 6px 14px;
 
@@ -509,9 +526,10 @@ button:hover {
 
     color: white;
 
-    border: 2px solid #38bdf8;
+    border: 2px solid #c77dff;
 
 }
+
 
 
 
@@ -544,6 +562,7 @@ ol li {
 
 
 
+
 /* =========================
    CONTACT
 ========================= */
@@ -551,11 +570,12 @@ ol li {
 
 #contact a {
 
-    color: #38bdf8;
+    color: #c77dff;
 
     text-decoration: none;
 
 }
+
 
 
 
@@ -570,7 +590,7 @@ ol li {
 
 footer {
 
-    background: #0f172a;
+    background: #240046;
 
     text-align: center;
 
@@ -592,6 +612,7 @@ footer p {
 
 
 
+
 /* =========================
    RESPONSIVE DESIGN
 ========================= */
@@ -604,7 +625,7 @@ nav {
 
     flex-direction: column;
 
-    gap: 20px;
+    gap:20px;
 
 }
 
@@ -614,7 +635,7 @@ nav ul {
 
     flex-wrap: wrap;
 
-    justify-content: center;
+    justify-content:center;
 
 }
 
@@ -622,9 +643,9 @@ nav ul {
 
 .hero {
 
-    flex-direction: column;
+    flex-direction:column;
 
-    text-align: center;
+    text-align:center;
 
 }
 
@@ -632,7 +653,7 @@ nav ul {
 
 .hero-content h1 {
 
-    font-size: 40px;
+    font-size:40px;
 
 }
 
@@ -640,7 +661,7 @@ nav ul {
 
 .hero-buttons {
 
-    justify-content: center;
+    justify-content:center;
 
 }
 
@@ -648,9 +669,9 @@ nav ul {
 
 .hero-image img {
 
-    width: 280px;
+    width:280px;
 
-    height: 280px;
+    height:280px;
 
 }
 
@@ -658,7 +679,7 @@ nav ul {
 
 .skills-container {
 
-    grid-template-columns: 1fr;
+    grid-template-columns:1fr;
 
 }
 
@@ -666,10 +687,9 @@ nav ul {
 
 section {
 
-    padding: 50px 5%;
+    padding:50px 5%;
 
 }
-
 
 
 }
